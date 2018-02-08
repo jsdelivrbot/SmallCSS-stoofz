@@ -1,0 +1,71 @@
+//META{"name":"Discord_Reborn_TDS_Edition","description":"A nice sleek transparent theme.","author":"Omniscient, TDS","version":"0.1"}*//
+
+/* IMPORT CSS FROM GITHUB */
+@import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/Discord%20Reborn.css");
+/*
+===== IMPORTANT =====
+CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
+===== CUSTOMIZABLE COLORS =====
+*/
+:root {
+    --main-color: #640605;
+    --hover-color: #B00E0A;
+}
+
+ /*
+===== CUSTOMIZABLE IMAGES =====
+IMPORTANT: EVERY URL MUST BE HTTPS:// IN ORDER TO WORK IN DISCORD
+RECOMMENDATIONS: EVERY URL AT THE BOTTOM SHOULD BE THE SAME TO MAKE THE THEME MATCH. (YOUR CHOICE)
+--------------------------------------------------------------------------------------------------------------------------------------------
+/*Change the url in .app to change the background behind chat */
+.app,
+.callout-backdrop,
+.userPopout-4pfA0d::before,
+.topSectionPlaying-3jAH9b,
+.topSectionNormal-2LlRG1{
+    background-image: url("http://d.facdn.net/art/zingiber/1504895256/1504895216.zingiber_newkittygif.gif") !important;
+    background-size: cover !important;
+}
+ /*
+---------------------------------------------------------------------------------------------------------------------------------------------
+===== CREDITS =====
+URI
+BEARDDESIGN
+ZERTHOX
+THESE PEOPLE HAVE HELPED CREATE THIS THEME IN ONE WAY OR THE OTHER.
+===== TROUBLESHOOTING =====
+IF YOU NEED ANY HELP GO TO HTTPS://BETTERDOCS.NET
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+#app-mount > [class*="platform-"] .scroller-wrap .guilds.scroller .guild:first-child {
+    margin-top: 19px;
+}
+
+#RANbutton,
+#RANbutton-frame,
+#RANbutton-frame .guild-inner:hover,
+#RANbutton-frame .guild-inner {
+    margin-bottom: 4px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    border-radius: 4px !important;
+}
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .ui-form-title.h2 + .bd-pfbtn {
+    position: unset !important;
+    left: unset !important;
+    background: var(--main-color);
+}
+.bd-pfbtn,
+.bd-blue,
+.bd-blue .bda-slist .bda-footer button,
+.guilds-wrapper .guilds .guild:hover .guild-inner:not([style*="background-color:"]) {
+    background: var(--main-color) !important;
+}
+#bd-settingspane-container .content-column.default .ui-form-title.h2::after,
+.content-region #bd-customcss-attach-controls::after,
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before {
+    content: none !important;
+}
+#app-mount .accountDetails-15i-_e {font-size: 90% !important}
+hough
+.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW {background: rgba(0, 0, 0, 0.10) !important}

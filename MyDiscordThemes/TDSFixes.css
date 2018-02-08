@@ -1,0 +1,98 @@
+.avatar-small .status {
+    width: 100%;
+    height: 100%;
+    border-width: 2px !important;
+    right: -2px;
+    bottom: -2px;
+}
+.avatar-small .status {
+    border-radius: 3px;
+}
+
+.status-online {
+    background-color: transparent;
+border: 4px solid #43b581 !important;}
+
+.container-iksrDt .status {
+	border: inherit; 
+    left: inherit; 
+    top: inherit;
+    z-index: 2;
+}
+
+.guilds-wrapper .guilds .friends-icon::after {
+    background-image: none;
+	}
+
+.guilds-wrapper .guilds-add {
+    color: transparent !important;
+    background-image: none !important;
+    background-size: initial 	!important;
+    background-repeat: initial !important;
+    background-position: initial !important;
+    background-color: initial !important;
+    font-size: initial !important;
+    -webkit-transition: initial!important;
+    transition: initial !important;
+    opacity: initial !important;
+    bottom: initial !important;
+    width: initial !important;
+    border-radius: initial;
+    left: initial;
+    height: initial !important;
+    line-height: initial !important;
+    box-shadow: initial !important;
+    border: initial !important;
+	position: inherit !important;
+}
+.guilds-wrapper .guilds-add-inner {
+     background-image: none !important;
+    background-position: -66px -585px;
+    height: 23px !important;
+    width: 23px !important;
+    background-repeat: no-repeat !important;	
+    background-size: 100px;
+    flex-shrink: 0 !important;
+    position: absolute;
+    margin-left: -12px;
+    margin-top: 12px;
+}
+.accountDetails-15i-_e .username {
+    font-size: 100%;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color)!important;
+    border-radius: 10px;
+	width: 2px;
+}
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 2px; 
+}
+[class*="scrollerThemed-"] [class*="scroller-"]::-webkit-scrollbar {
+    width: 2px!important; 
+}
+#RANbutton,
+#RANbutton-frame,
+#RANbutton-frame .guild-inner:hover,
+#RANbutton-frame .guild-inner {
+    margin-bottom: 4px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    border-radius: 4px !important;
+}
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .ui-form-title.h2 + .bd-pfbtn {
+    position: unset !important;
+    left: unset !important;
+    background: var(--main-color);
+}
+.bd-pfbtn,
+.bd-blue,
+.bd-blue .bda-slist .bda-footer button,
+.guilds-wrapper .guilds .guild:hover .guild-inner:not([style*="background-color:"]) {
+    background: var(--main-color) !important;
+}
+#bd-settingspane-container .content-column.default .ui-form-title.h2::after,
+.content-region #bd-customcss-attach-controls::after,
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before {
+    content: none !important;
+}

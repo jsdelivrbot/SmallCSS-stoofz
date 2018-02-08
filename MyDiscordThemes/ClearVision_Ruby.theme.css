@@ -1,0 +1,64 @@
+//META{"name":"ClearVision_Ruby","description":"A raging, red theme with customizable colors & background! Based on Discord Reborn by @Omniscient &DarkMatter by @Hammock. Server: https://discord.me/clearvision","author":"Zerthox","version":"5"}*//{}
+/* "ClearVision - Ruby v5" by @Zerthox */
+/* Based on "Discord Reborn v4.30" by @Omniscient & "DarkMatter" by @Hammock */
+
+/* IMPORT CSS FROM GITHUB */
+@import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/Discord%20Reborn.css");
+@import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
+@import url(".\TDSFixes.css");
+/*
+	@import url(https://gitcdn.xyz/cdn/Zerthox/ClearVision/master/mods/EclipsingAvatars.css);
+@import url(https://gitcdn.xyz/cdn/Zerthox/ClearVision/master/mods/CleanStatusPicker.css);
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+================ IMPORTANT LINKS =================
+Github: https://git.io/v6BHO
+Discord: https://git.io/vMnlu
+Wiki: https://git.io/vXTqM
+Latest version: https://git.io/v6Muk
+Changelog: https://git.io/v6r5N
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--main-color: #e62727;
+	--hover-color: #b31e1e;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+	--dm-image: url(https://puu.sh/sDTyr/6c5abd7d78.gif);	
+	--profile-image: url(https://puu.sh/sDUDL/78da3a2546.png);
+    --nsfw-image: url(https://puu.sh/zbsiF/9b67596e0e.png);
+}
+
+
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.userPopout-4pfA0d::before,
+.root-2sNHUF::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+    background-image: url(https://d.facdn.net/art/zingiber/1504895256/1504895216.zingiber_newkittygif.gif) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+

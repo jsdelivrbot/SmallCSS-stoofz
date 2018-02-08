@@ -1,0 +1,251 @@
+//META{"name":"Discord_Reborn_Revert","description":"A nice sleek transparent theme, with top bar and bottom bar reverts.","author":"Izy,Omni","version":"1"}*//
+
+
+/* IMPORT CSS FROM GITHUB */
+@import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/Discord%20Reborn.css");
+/*
+===== IMPORTANT =====
+CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
+===== CUSTOMIZABLE COLORS =====
+*/
+:root { 
+	--main-color: #007dbd;
+	--hover-color: #03679b;
+ }
+ /*
+===== CUSTOMIZABLE IMAGES =====
+IMPORTANT: EVERY URL MUST BE HTTPS:// IN ORDER TO WORK IN DISCORD
+RECOMMENDATIONS: EVERY URL AT THE BOTTOM SHOULD BE THE SAME TO MAKE THE THEME MATCH. (YOUR CHOICE)
+--------------------------------------------------------------------------------------------------------------------------------------------
+/*Change the url in .app to change the background behind chat */
+
+.app, .callout-backdrop, .userPopout-4pfA0d::before { background-image: url("https://imgur.com/RG03PyX.png") !important; background-size: cover !important; }
+
+ /*
+---------------------------------------------------------------------------------------------------------------------------------------------
+===== CREDITS =====
+URI
+BEARDDESIGN
+ZERTHOX
+THESE PEOPLE HAVE HELPED CREATE THIS THEME IN ONE WAY OR THE OTHER.
+===== TROUBLESHOOTING =====
+IF YOU NEED ANY HELP GO TO HTTPS://BETTERDOCS.NET
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*REVERT BOTTOM BAR TO ORIGINAL LOOK*/
+
+.account{border-top:none !important;padding:0 15px !important;background:#19191b !important;border-top:1px solid #171719 !important;height:70px !important;margin-left:0px;width:100% !important;}
+
+.account:after{content:var(--version-content);color:rgba(255, 255, 255, 0.2);font-size:11px;font-weight:bold;position:absolute;left:180px;bottom:0;right:0;opacity:1;display:flex;justify-content:center;width: 20px;}
+
+.theme-dark .chat form{border-top:1px solid #171719 !important;border-left: 0px solid transparent !important; border-right: 0px transparent !important;}
+
+.channel-members::after, #friends .friends-table .friends-table-body::after{display:none !important;}
+
+.account .avatar-small{margin-left:0px !important;}
+
+
+.theme-dark .channel-textarea-inner{border-left:0px solid #212121 !important;border-right:0px solid #212121 !important;}
+
+
+.guilds-wrapper .guilds-add{
+    left: 0px!important;
+    border: 0px solid transparent;position: fixed !important;
+    bottom: 0px!important;width: 2.5px !important;border-radius: 0px;
+    height: 60px !important;line-height: 1px;font-size: 0px !important;
+    transition: .2s all linear;margin-left: 76px !important;
+    z-index: 15 !important;}
+.guilds-wrapper .guilds-add:hover{
+    width: 210px !important;
+    height: 60px !important;line-height: 0px;
+    font-size: 25px !important;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;}
+.guilds-wrapper .guilds-add-inner{
+background-image: none;
+    font-size: 0px;top: 0px !important;
+    position: relative;}
+.guilds-wrapper .guilds-add-inner::after{
+    content:"Add/Create Server";font-size: 18px;display: none;}
+.guilds-wrapper .guilds-add:hover .guilds-add-inner::after{
+    content:"Add/Create Server";font-size: 18px;
+    display: initial !important;}
+.guilds-wrapper .guilds {
+    padding: 0px 0px 150px 14px !important;
+}
+
+.new-messages-indicator.bottom {display: none;}
+
+
+.container-iksrDt {
+    border-top: 0px solid transparent !important;
+    width: calc(100% - 20px) !important;
+	background: transparent !important;
+    margin-left: 0px;
+}
+.theme-dark .container-iksrDt {border: none !important;
+}
+.theme-dark .chat form {
+	background: transparent !important;
+	border-top: 0px solid transparent !important;
+}
+
+.bf-toolbar .bf-arrow {
+    border-left: 2px solid #171719!important;
+    border-right: 2px solid #171719!important;
+    border-top: 2px solid #171719!important;
+}
+.bf-toolbar.bf-visible .bf-arrow, .bf-toolbar.bf-hover:hover .bf-arrow {
+    border-top: 2px solid #171719 !important;
+    border-right: 2px solid #171719 !important;
+    border-bottom: 2px solid #171719 !important;
+}
+.edit-container-inner .bf-toolbar:before {
+    border-right: 2px solid #171719 !important;
+}
+.bf-toolbar:before {
+    content: "";
+    width: 95% !important;
+    background: #19191b !important;
+    box-shadow: 0px 0px 0px 0px #0a0a0a !important;
+    border: 2px solid #171719 !important;
+    border-right: 0px solid transparent !important;
+    left: 6px !important;
+}
+.theme-dark .guilds-wrapper::before {
+    background: transparent!important;
+}
+
+[class*="scroller-"].channel-members {
+    height: 101%!important;
+}
+
+
+
+/* OLD TITLE BAR -*/
+
+.theme-dark .activityFeed-HeiGwL  .iconMargin-2Js7V9 ,.divider-1GKkV3{
+    margin-right: 90px !important;
+    margin-left: -90px ;}
+#friends .iconMargin-2Js7V9, .divider-1GKkV3 {
+    margin-right: 90px !important;
+    margin-left: -90px ;}
+
+div[class*="titleBar-"] {
+    height: 0px;
+    margin-top: 0px;
+}
+
+.platform-win .ui-standard-sidebar-view {
+    top: 0px;
+}
+
+div[class*="titleBar-"]:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1px;
+    height: 16px;
+    z-index: 3002;
+    -webkit-app-region: drag;
+}
+div[class*="titleBar-"]:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0 !important;
+    height: 0px;
+    z-index: 3002;
+}
+div[class*="wordmark-"], div[class*="winButton-"] svg {
+    display: none;
+}
+div[class*="winButton-"] {
+    top: 9px;
+    height: 30px;
+    width: 30px;
+    right: 8px;
+    background-position: center;
+    opacity: .6;
+    transition: 200ms ease;
+}
+div[class*="winButton-"]:hover{
+	-webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    
+    background-color: var(--hover-color) !important;
+	border-radius: 10px;
+    opacity: 1;
+}
+div[class*="titleBar-"] div:nth-of-type(2) {
+	background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg) !important;  
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 24px;
+}
+div[class*="titleBar-"] div:nth-of-type(3) {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/fullscreen.svg) !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 24px;
+}
+div[class*="titleBar-"] div:nth-of-type(4) {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg) !important;
+	background-repeat: no-repeat;
+	background-position: center 7px;
+	background-size: 24px;
+}
+#app-mount .titleWrapper-3Vi_wz > div{
+    margin-right: 98px !important;
+}
+.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after,
+#friends [class*='flex-'] [class*='flex-']:last-of-type:after,
+[class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {
+    content: '';
+    width: 1px;
+    height: 0px;
+    background-color: hsla(240,6%,97%,.1);
+}
+/* OLD TITLE BAR */
+/*adjust guild margin*/
+.app .guilds .guild:first-child {margin-top: 0px!important;padding-bottom:1px !important}
+.lfg-3xoFkI:after {display:none}
+.scroller-1nBnGs {margin-bottom: 0;}
+.inner-3if5cm {background-color:rgba(0,0,0,0.2) !important;width:99% !important;border:1px solid #111111!important;}
+
+.theme-dark .inner-3if5cm {padding-top: 0px !important;}
+.theme-dark .chat form {background:transparent !important;border-top: 0px solid transparent !important;margin-top: 18px !important;}
+.emojiButton-38mF6t {top:12px;!important}
+#app-mount .typing {bottom:15px !important;font-size: 10px !important;}
+
+
+.theme-dark .activityFeed-HeiGwL::after {display:none !important}
+       
+.feed-2fHzeU {height: calc(100%)!important;}
+.app .guilds .guild:first-child {width: 79px;!important}
+
+.notice .notice-dismiss {display: none !important}
+
+
+#bd-customcss-detach-container span[style="font-size: 10px; margin-left: 5px;"] {position: fixed !important;top: 10px !important;right: unset !important;}
+
+.message-group:not(.compact) .avatar-large[style*="172218388880293888"] ~ .comment .message h2 span.username-wrapper::before, .channel-members .member .avatar-small[style*="172218388880293888"] ~ .member-inner .member-username .member-username-inner::before {
+display:none !important;}
+
+/*Revert account details text — vanilla */
+#app-mount .accountDetails-15i-_e {position:unset !important; min-width:unset !important;bottom:0px !important;height: unset !important;transform: translateY(-25px) !important;}
+#app-mount .accountDetails-15i-_e .username { margin-left: unset !important; border: none !important; font-family:Whitney,Helvetica Neue,Helvetica,Arial,sans-serif !important; font-size:15px !important; font-weight:400 !important; color:white !important; text-align:unset !important; height:30px!important; line-height:10px!important; text-shadow: 0.5px 0.5px 2px black!important; }
+.accountDetails-15i-_e .discriminator {display: inline-block !important; font-size: 12px !important;text-shadow: 0.5px 0.5px 2px black!important; position: unset !important;transform: translate(-94px, 14px) !important;margin-left: 24px;margin-bottom: 20px;}
+.accountDetails-15i-_e + div div{margin-left:unset !important;}
+.accountDetails-15i-_e .username {background-color: transparent !important;}
+
+
+#friends .friends-table .friends-table-body {height:100% !important;}
+
+#app-mount .guilds-wrapper .guilds .guild .guild-inner:first-of-type:hover {
+    background-color: transparent !important;}
+
+#friends .friends-table .friends-table-body {padding: 0 !important;margin:0 !important;}
