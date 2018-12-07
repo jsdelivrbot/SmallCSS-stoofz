@@ -1,6 +1,6 @@
 //META {"name":"Discord_Reborn_meta","description":"meta Personal Reborn Theme","author":"Izy,Omni,TDS","version":"1.9"}*//
 /* IMPORT CSS FROM GITHUB */
-@import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/Discord%20Reborn.css");
+@import url("https://cdn.jsdelivr.net/gh/0mniscient/Discord-Themes/css/Discord%20Reborn.css");
 /*
 ===== IMPORTANT =====
 CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
@@ -16,21 +16,21 @@ background-image:url("http://d.facdn.net/art/zingiber/1504895256/1504895216.zing
 background-size:cover!important;
 }
 div[class*="titleBar-"] div:nth-of-type(2) {
-background-image:url("https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg")!important;
+background-image:url("https://cdn.jsdelivr.net/gh/Zerthox/ClearVision/icons/close.svg")!important;
 background-repeat:no-repeat;
 background-position:center;
 background-size:24px;
 }
 
 div[class*="titleBar-"] div:nth-of-type(3) {
-background-image:url("https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/fullscreen.svg")!important;
+background-image:url("https://cdn.jsdelivr.net/gh/Zerthox/ClearVision/icons/fullscreen.svg")!important;
 background-repeat:no-repeat;
 background-position:center;
 background-size:24px;
 }
 
 div[class*="titleBar-"] div:nth-of-type(4) {
-background-image:url("https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg")!important;
+background-image:url("https://cdn.jsdelivr.net/gh/Zerthox/ClearVision/icons/remove.svg")!important;
 background-repeat:no-repeat;
 background-position:center 7px;
 background-size:24px;
